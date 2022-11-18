@@ -9,7 +9,12 @@ int main()
     {
         std::cin>>a[i];
     }
+    for(i=0;i<n;i++)
+    {
+        std::cout<<a[i];
+    }
     std::cout<<" enter element to find ";
+    
     std::cin>>k;
     for(i=0;i<n;i++)
     {
@@ -17,4 +22,5 @@ int main()
         c++;
     }
     std::cout<<c;
+   
 }
